@@ -1,0 +1,19 @@
+- name: powerapps-solution-extract
+  # You may pin to the exact commit or the version.
+  # uses: rajyraman/powerapps-solution-extract@ad5047c8972758c9d6ba8b9988e85ce4067e03cc
+  uses: rajyraman/powerapps-solution-extract@v1.3
+  with:
+    # GitHub Token
+    token: 
+    # Solution Name
+    solutionName: 
+    # Source Environment URL
+    sourceEnvironmentUrl: 
+    # Application Id
+    applicationId: 
+    # Application Secret
+    applicationSecret: 
+    # Release Solution?
+    releaseSolution: # optional, default is false
+    # Branch name to commit the changes to
+    branch: # optional, default is main
